@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "boot/*": [
+        "src/boot/*"
+      ],
+      "callers/*": [
+        "src/callers/*"
+      ],
+      "utilities/*": [
+        "src/utilities/*"
+      ],
+      "stores/*": [
+        "src/stores/*"
+      ],
+      "src/*": [
+        "src/*"
+      ],
+      "app/*": [
+        "*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "layouts/*": [
+        "src/layouts/*"
+      ],
+      "views/*": [
+        "src/views/*"
+      ],
+      "assets/*": [
+        "src/assets/*"
+      ],
+      "vue$": [
+        "node_modules/vue/dist/vue.runtime.esm-bundler.js"
+      ]
+    }
+  },
+  "exclude": [
+    "dist",
+    ".quasar",
+    "node_modules"
+  ]
+}
